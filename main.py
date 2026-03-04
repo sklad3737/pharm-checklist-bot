@@ -4,7 +4,7 @@ from aiogram.types import Message
 from aiogram.filters import CommandStart
 from config import BOT_TOKEN
 
-bot = Bot(token=8685523885AAHrCdbbi67sidWIhJ94ji5oyGrfgXba284)
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
 @dp.message(CommandStart())
@@ -17,4 +17,5 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
